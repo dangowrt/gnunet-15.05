@@ -23,6 +23,7 @@ cat feeds.conf.default >> feeds.conf
 
 If you are using a pre-built SDK, make sure feeds.conf also contains a
 git-src for the base packages, if not
+```shell
 echo "src-git base git://git.openwrt.org/15.05/openwrt.git" >> feeds.conf
 ```
 
