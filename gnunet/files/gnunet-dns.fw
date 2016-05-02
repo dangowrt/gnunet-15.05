@@ -1,0 +1,6 @@
+#!/bin/sh
+
+iptables -t mangle -I OUTPUT 1 -p udp -m owner --gid-owner gnunetdns --dport 53 -j ACCEPT
+iptables -t mangle -I OUTPUT 2 -p udp --dport DNS_PORT -j MARK --set-mark 136708149
+ip rule add fwmark 136708149 table 53
+ip route add default dev gnunet-dns table 53
