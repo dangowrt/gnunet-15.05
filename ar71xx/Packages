@@ -1,0 +1,438 @@
+Package: giflib
+Version: 5.1.2-1
+Depends: libc
+Source: /usr/src/gnunet-15.05/giflib
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: ar71xx
+Installed-Size: 12766
+Filename: giflib_5.1.2-1_ar71xx.ipk
+Size: 13579
+MD5Sum: 701333aadda1cecd236c8a42f3a062b0
+SHA256sum: f8619489f2f7d29871c3045ae9473a30d06c362847d53f15544389f938dcecb5
+Description:  giflib is a library for reading and writing gif images.
+ It is API and ABI compatible with libungif which was in wide use while
+ the LZW compression algorithm was patented.
+
+Package: gnunet-conversation
+Version: 0.10.1-svn37051-3
+Depends: libc, gnunet, gnunet-gns, libgst1app, libgst1audio, libgstreamer1, glib2, pulseaudio-daemon, libopus, libogg
+Source: /usr/src/gnunet-15.05/gnunet
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: ar71xx
+Installed-Size: 37270
+Filename: gnunet-conversation_0.10.1-svn37051-3_ar71xx.ipk
+Size: 37893
+MD5Sum: 25f0e231cb681563972dbfd1975e3297
+SHA256sum: ab749421846849e78772d91b16a5c406d975dc8d050a2b1c0d4cd2496f972153
+Description:  GNUnet conversation component
+
+Package: gnunet-datastore
+Version: 0.10.1-svn37051-3
+Depends: libc, gnunet, gnunet-gns, libsqlite3
+Source: /usr/src/gnunet-15.05/gnunet
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: ar71xx
+Installed-Size: 25409
+Filename: gnunet-datastore_0.10.1-svn37051-3_ar71xx.ipk
+Size: 26083
+MD5Sum: fbb38bc130d26591b3292165361452f1
+SHA256sum: 4c5f04a77234381ff7cf75b64b864571a5de62994416274d64bf1137b5bbe085
+Description:  GNUnet data storage components
+
+Package: gnunet-dv
+Version: 0.10.1-svn37051-3
+Depends: libc, gnunet
+Source: /usr/src/gnunet-15.05/gnunet
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: ar71xx
+Installed-Size: 17105
+Filename: gnunet-dv_0.10.1-svn37051-3_ar71xx.ipk
+Size: 17899
+MD5Sum: f6d675f5998ffa8f7c524cf37c7eebfe
+SHA256sum: c2d2b830b2383c80bca34ab064469b1b1f54e8f6609c9377e3a02d7ad6e447b5
+Description:  GNUnet distance-vector routing component
+
+Package: gnunet-experiments
+Version: 0.10.1-svn37051-3
+Depends: libc, gnunet, libglpk
+Source: /usr/src/gnunet-15.05/gnunet
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: ar71xx
+Installed-Size: 66270
+Filename: gnunet-experiments_0.10.1-svn37051-3_ar71xx.ipk
+Size: 66937
+MD5Sum: 92a05447f28e061260ef4e5e839821ef
+SHA256sum: 1ebc68ecf2ede358007abe4d8684531b12ac24a3e4529db57f7eba0f09541b49
+Description:  GNUnet experimental components
+
+Package: gnunet-flat
+Version: 0.10.1-svn37051-3
+Depends: libc, gnunet, gnunet-gns
+Source: /usr/src/gnunet-15.05/gnunet
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: ar71xx
+Installed-Size: 7413
+Filename: gnunet-flat_0.10.1-svn37051-3_ar71xx.ipk
+Size: 8189
+MD5Sum: 04eaa470c68d0727b2fe8da0d0a7d7c6
+SHA256sum: a4ef9edc75dfe35bf931fab061dae596e1f61be011247d14cd07c7a9eee3be62
+Description:  GNUnet flat storage backends
+
+Package: gnunet-fs
+Version: 0.10.1-svn37051-3
+Depends: libc, gnunet, gnunet-datastore, gnunet-peerstore, libextractor
+Source: /usr/src/gnunet-15.05/gnunet
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: ar71xx
+Installed-Size: 142851
+Filename: gnunet-fs_0.10.1-svn37051-3_ar71xx.ipk
+Size: 143036
+MD5Sum: 545dc9e84b27e66ff25ffb7a1d46c051
+SHA256sum: 594f3112d04d2c9be065c68f8901fa3c596ba1ac66258cafe71f83f8962dd213
+Description:  GNUnet file-sharing components
+
+Package: gnunet-gns-proxy
+Version: 0.10.1-svn37051-3
+Depends: libc, gnunet, gnunet-gns, libmicrohttpd
+Source: /usr/src/gnunet-15.05/gnunet
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: ar71xx
+Installed-Size: 14058
+Filename: gnunet-gns-proxy_0.10.1-svn37051-3_ar71xx.ipk
+Size: 14680
+MD5Sum: 493ecbbbcac2e27cdd455d9dc8ab1403
+SHA256sum: 95f777ab8e6c6cb9910ca35adf8c56945e12760b1bbd460d11c5ccc82e2f9678
+Description:  GNUnet gns-proxy component
+
+Package: gnunet-gns
+Version: 0.10.1-svn37051-3
+Depends: libc, gnunet, gnunet-vpn, iptables-mod-extra
+Source: /usr/src/gnunet-15.05/gnunet
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: net
+Require-User: gnunet=400:gnunetdns=401
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: ar71xx
+Installed-Size: 95816
+Filename: gnunet-gns_0.10.1-svn37051-3_ar71xx.ipk
+Size: 96239
+MD5Sum: 03836425879d7925aa5dd529e4b34429
+SHA256sum: 0292f1a83850566b22f48db9f2af181a2e7343106b5a0b21f85a090db0eaac22
+Description:  GNUnet name resolution components
+
+Package: gnunet-namestore-fcfsd
+Version: 0.10.1-svn37051-3
+Depends: libc, gnunet, gnunet-gns, libmicrohttpd
+Source: /usr/src/gnunet-15.05/gnunet
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: ar71xx
+Installed-Size: 6182
+Filename: gnunet-namestore-fcfsd_0.10.1-svn37051-3_ar71xx.ipk
+Size: 7010
+MD5Sum: 5b98aa8036bdae9215192eec8ee6ab02
+SHA256sum: cec5e106fcc0bda3dea21574d8e31262b3b25a72ca7f02c13b01b4a13b84199d
+Description:  GNUnet fist-come-first-serve registration server
+
+Package: gnunet-peerstore
+Version: 0.10.1-svn37051-3
+Depends: libc, gnunet
+Source: /usr/src/gnunet-15.05/gnunet
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: ar71xx
+Installed-Size: 12394
+Filename: gnunet-peerstore_0.10.1-svn37051-3_ar71xx.ipk
+Size: 13168
+MD5Sum: c8a9984d630445cefc93da508458d76a
+SHA256sum: 624d689a5b3e5c80615ddc06ec701fecc19754c1f53df4e09bc32345c7d7860d
+Description:  GNUnet peerstore local persistency component
+
+Package: gnunet-rest
+Version: 0.10.1-svn37051-3
+Depends: libc, gnunet, gnunet-gns, gnunet-social, libmicrohttpd, jansson
+Source: /usr/src/gnunet-15.05/gnunet
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: ar71xx
+Installed-Size: 23481
+Filename: gnunet-rest_0.10.1-svn37051-3_ar71xx.ipk
+Size: 24269
+MD5Sum: 584e212bcfd8ee0dd435e6ff71a0e0b9
+SHA256sum: 00b70b32b72a448811ed7ab4f66f784fd00e040c04d087944be33459f4d7f706
+Description:  GNUnet REST interface
+
+Package: gnunet-rps
+Version: 0.10.1-svn37051-3
+Depends: libc, gnunet
+Source: /usr/src/gnunet-15.05/gnunet
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: ar71xx
+Installed-Size: 23571
+Filename: gnunet-rps_0.10.1-svn37051-3_ar71xx.ipk
+Size: 24213
+MD5Sum: 979eb169c303eb1ea7deed34be76ed27
+SHA256sum: 4f36d6c405ef3f98229e8d68e14af8ee30c05e0f8ccd66bc73cedad4983be407
+Description:  GNUnet RPS routing component
+
+Package: gnunet-social
+Version: 0.10.1-svn37051-3
+Depends: libc, gnunet, gnunet-sqlite, libmicrohttpd, jansson
+Source: /usr/src/gnunet-15.05/gnunet
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: ar71xx
+Installed-Size: 149471
+Filename: gnunet-social_0.10.1-svn37051-3_ar71xx.ipk
+Size: 149549
+MD5Sum: 5779776f08d0111a5b77c4da252cc386
+SHA256sum: 8f20841b77cc5bb99935f30b36145f2be9be0e03c1f811a853d412679263bba4
+Description:  GNUnet social components
+
+Package: gnunet-sqlite
+Version: 0.10.1-svn37051-3
+Depends: libc, gnunet, gnunet-gns, gnunet-datastore, gnunet-peerstore, libsqlite3
+Source: /usr/src/gnunet-15.05/gnunet
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: ar71xx
+Installed-Size: 28773
+Filename: gnunet-sqlite_0.10.1-svn37051-3_ar71xx.ipk
+Size: 29566
+MD5Sum: e7090cd383081bafa4dd1eb7c811d3d8
+SHA256sum: 80e02c34fbb4b17f3085325542567caf35e55c0583b1b25a9ea5f1327ba020dd
+Description:  GNUnet libsqlite3 storage backends
+
+Package: gnunet-transport-bluetooth
+Version: 0.10.1-svn37051-3
+Depends: libc, gnunet, bluez-libs
+Source: /usr/src/gnunet-15.05/gnunet
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: ar71xx
+Installed-Size: 19691
+Filename: gnunet-transport-bluetooth_0.10.1-svn37051-3_ar71xx.ipk
+Size: 20497
+MD5Sum: 86f020d1eaeab755f10b30b655716b4d
+SHA256sum: ac4073542a0b90528b4620ab6a41e52d602ca32334f55717fe66f7b891f3d5ae
+Description:  GNUnet bluetooth transport
+
+Package: gnunet-transport-http_client
+Version: 0.10.1-svn37051-3
+Depends: libc, gnunet, libgnurl
+Source: /usr/src/gnunet-15.05/gnunet
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: ar71xx
+Installed-Size: 27741
+Filename: gnunet-transport-http_client_0.10.1-svn37051-3_ar71xx.ipk
+Size: 28553
+MD5Sum: 41c6641e8cbf9dedfa3154b22d088703
+SHA256sum: 8b6ff54d0728f9d1ff7ec6e7f5eb403931467754ef9524b87b558d2f14853dba
+Description:  GNUnet HTTP/HTTPS client transport
+
+Package: gnunet-transport-http_server
+Version: 0.10.1-svn37051-3
+Depends: libc, gnunet, libmicrohttpd
+Source: /usr/src/gnunet-15.05/gnunet
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: ar71xx
+Installed-Size: 35864
+Filename: gnunet-transport-http_server_0.10.1-svn37051-3_ar71xx.ipk
+Size: 36653
+MD5Sum: 1cb34b6c9f43a381917c107c25619e7e
+SHA256sum: 520d30bdf3927de71f9e137cf4e11dcafbb301082a36e062bacfd0e307d74f10
+Description:  GNUnet HTTP/HTTPS server transport
+
+Package: gnunet-transport-wlan
+Version: 0.10.1-svn37051-3
+Depends: libc, gnunet
+Source: /usr/src/gnunet-15.05/gnunet
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: ar71xx
+Installed-Size: 16804
+Filename: gnunet-transport-wlan_0.10.1-svn37051-3_ar71xx.ipk
+Size: 17628
+MD5Sum: 76387dd1779db18d9e6b7b01bcbd5681
+SHA256sum: 291b3cdf43be99f2d24d0aa76373b14825fb5764ac75c16eaa4da3f974030c9b
+Description:  GNUnet WLAN transport
+
+Package: gnunet-utils
+Version: 0.10.1-svn37051-3
+Depends: libc, gnunet, certtool, openssl-util
+Source: /usr/src/gnunet-15.05/gnunet
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: ar71xx
+Installed-Size: 6948
+Filename: gnunet-utils_0.10.1-svn37051-3_ar71xx.ipk
+Size: 7767
+MD5Sum: 550e57de743ce873291edb32ea8694d3
+SHA256sum: bea9bec96285eba791e64913b6ea059b3ee6f7785f7267ffd5625cbcc357b93a
+Description:  GNUnet administration utililties
+
+Package: gnunet-vpn
+Version: 0.10.1-svn37051-3
+Depends: libc, gnunet, kmod-tun, iptables, firewall
+Source: /usr/src/gnunet-15.05/gnunet
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: ar71xx
+Installed-Size: 55895
+Filename: gnunet-vpn_0.10.1-svn37051-3_ar71xx.ipk
+Size: 56652
+MD5Sum: 316506438b4492742fa396c1ee99efe2
+SHA256sum: a6ed3d2975493e6ead362495a9244b1cb67b730e2e078f2d0c4d1c66771e0ab1
+Description:  GNUnet vpn components
+
+Package: gnunet
+Version: 0.10.1-svn37051-3
+Depends: libc, ca-certificates, libgcrypt, libgpg-error, libgnurl, libgnutls, libidn, libltdl, libunistring, librt
+Source: /usr/src/gnunet-15.05/gnunet
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: net
+Require-User: gnunet=400:gnunet=400
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: ar71xx
+Installed-Size: 668797
+Filename: gnunet_0.10.1-svn37051-3_ar71xx.ipk
+Size: 667585
+MD5Sum: 8f3db1b6c8600b5c8fc2b85fdf5eba50
+SHA256sum: ffd734e9ea5cdf619cedae0479bd973596e20373a6a996081a39d9993fcbe192
+Description:  GNUnet is a peer-to-peer framework focusing on security. The first and
+ primary application for GNUnet is anonymous file-sharing.  GNUnet is
+ currently developed by a worldwide group of independent free software
+ developers.  GNUnet is a GNU package (http://www.gnu.org/).
+ 
+ This is an ALPHA release.  There are known and significant bugs as
+ well as many missing features in this release.
+ 
+ This package provides the core components of GNUnet including the
+ CADET routing engine, a DHT implementation and basic transports as
+ well as their helpers.
+
+Package: libextractor
+Version: 1.3-3
+Depends: libc, libbz2, libltdl, librt, zlib
+Source: /usr/src/gnunet-15.05/libextractor
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: ar71xx
+Installed-Size: 25803
+Filename: libextractor_1.3-3_ar71xx.ipk
+Size: 25911
+MD5Sum: 2ba53f459229ad940089d0dc1981b40f
+SHA256sum: 56e882251b9d61e1d098a768ae7030cc9a6d54e36aa13de2df1495964fd8314c
+Description:  GNU Libextractor is a library used to extract meta data from files.
+ The goal is to provide developers of file-sharing networks, browsers or
+ WWW-indexing bots with a universal library to obtain simple keywords and meta
+ data to match against queries and to show to users instead of only relying on
+ filenames.
+
+Package: libglpk
+Version: 4.60-1
+Depends: libc
+Source: /usr/src/gnunet-15.05/glpk
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: ar71xx
+Installed-Size: 390226
+Filename: libglpk_4.60-1_ar71xx.ipk
+Size: 391211
+MD5Sum: 07217427f75d926278aa4b20351c54e7
+SHA256sum: c72b980436f08d2ba3a5c2e2a4dc58546f7539cdd6d3a30dd8f92fcc9c6cfd1e
+Description:  The GLPK (GNU Linear Programming Kit) package is intended for solving
+ large-scale linear programming (LP), mixed integer programming (MIP),
+ and other related problems. It is a set of routines written in ANSI C
+ and organized in the form of a callable library.
+
+Package: libgnurl
+Version: 7.45.0-1
+Depends: libc, libgnutls, libidn, zlib
+Source: /usr/src/gnunet-15.05/gnurl
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: ar71xx
+Installed-Size: 106481
+Filename: libgnurl_7.45.0-1_ar71xx.ipk
+Size: 107293
+MD5Sum: 5b776c1c8b4fca500eb65fe701506698
+SHA256sum: a562480de626ba003f4a61a1ee1687c904c508717cc1b16291cb18ebb978ce5a
+Description:  A client-side HTTP/HTTPS transfer library
+
+Package: libmicrohttpd
+Version: 0.9.49-1
+Depends: libc, libpthread, libgcrypt, libgnutls, libgpg-error
+Source: /usr/src/gnunet-15.05/libmicrohttpd
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Martijn Zilverschoon <martijn@friedzombie.com>
+Architecture: ar71xx
+Installed-Size: 35637
+Filename: libmicrohttpd_0.9.49-1_ar71xx.ipk
+Size: 36525
+MD5Sum: 32fe6ad2daf9f12c4a8ca41e17a45299
+SHA256sum: df601d85f5d15f38a62f64ff3b6597ebb8b30451f768fee43c302a3f0bb86e38
+Description:  GNU libmicrohttpd is a small C library that is supposed to make it easy
+ to run an HTTP server as part of another application.
+
