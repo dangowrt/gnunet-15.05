@@ -1,0 +1,20 @@
+diff --git a/src/core/gnunet-service-core_kx.c b/src/core/gnunet-service-core_kx.c
+index 5e3864d..2a6dbf9 100644
+--- a/src/core/gnunet-service-core_kx.c
++++ b/src/core/gnunet-service-core_kx.c
+@@ -909,6 +909,7 @@ GSC_KX_handle_ephemeral_key (struct GSC_KeyExchangeInfo *kx,
+     return;
+   }
+   now = GNUNET_TIME_absolute_get ();
++#if 0
+   if ( (end_t.abs_value_us < GNUNET_TIME_absolute_subtract (now, REKEY_TOLERANCE).abs_value_us) ||
+        (start_t.abs_value_us > GNUNET_TIME_absolute_add (now, REKEY_TOLERANCE).abs_value_us) )
+   {
+@@ -920,6 +921,7 @@ GSC_KX_handle_ephemeral_key (struct GSC_KeyExchangeInfo *kx,
+ 		end_t.abs_value_us);
+     return;
+   }
++#endif
+   kx->other_ephemeral_key = m->ephemeral_key;
+   kx->foreign_key_expires = end_t;
+   derive_session_keys (kx);

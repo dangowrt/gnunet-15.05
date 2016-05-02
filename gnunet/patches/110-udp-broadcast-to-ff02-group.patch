@@ -1,0 +1,13 @@
+diff --git a/src/transport/plugin_transport_udp_broadcasting.c b/src/transport/plugin_transport_udp_broadcasting.c
+index 6c5efd5..0bf89e5 100644
+--- a/src/transport/plugin_transport_udp_broadcasting.c
++++ b/src/transport/plugin_transport_udp_broadcasting.c
+@@ -573,7 +573,7 @@ setup_broadcast (struct Plugin *plugin,
+   {
+     memset (&plugin->ipv6_multicast_address, 0, sizeof (struct sockaddr_in6));
+     GNUNET_assert (1 ==
+-                   inet_pton (AF_INET6, "FF05::13B",
++                   inet_pton (AF_INET6, "FF02::13B",
+                               &plugin->ipv6_multicast_address.sin6_addr));
+     plugin->ipv6_multicast_address.sin6_family = AF_INET6;
+     plugin->ipv6_multicast_address.sin6_port = htons (plugin->port);
